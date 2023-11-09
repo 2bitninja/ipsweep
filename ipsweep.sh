@@ -4,10 +4,9 @@
 
 if [ -z "$1" ]
 then    echo "You forgot an ip address!"
-	echo "Syntax ./ipsweep.sh 192.168.1"
+	echo -e "Syntax ./ipsweep.sh 192.168.1\n"
         exit 0
 else
-
 for ip in $(seq 1 14 )
 	do ping -c1 $1.$ip |grep "64 bytes"|cut -d " " -f4 |tr -d ":" |tee -a iplist.txt
 done
