@@ -36,7 +36,8 @@ Replace <subnet> with the desired subnet to scan (e.g., 192.168.1).
 ## Example
    ```bash
    ipsweep.sh 192.168.1
-###Output   ```
+   ```
+### Output
    ```bash
    These are the active IP Address for 192.168.1
 
