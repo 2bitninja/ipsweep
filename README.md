@@ -1,6 +1,6 @@
 # ipsweep
 
-The purpose of this script is to find what IP address are being used in a subnet. Basicly the script runs the ping command for each IP address and lists the devices that replyied to the ping request.
+The purpose of this script is to find what IP address are being used in a subnet.
 
 ## How it works
 Basicly the script runs the ping command for each IP address and lists the devices that replyied to the ping request. The script also looks up the DNS name of all the IP addresses it finds.
@@ -8,7 +8,6 @@ Basicly the script runs the ping command for each IP address and lists the devic
 ```bash
 ipsweep.sh 192.168.1
 ```
-### Example output
 ```bash
 These are the active IP Address for 192.168.1
  IP Adress 	 Hostname
