@@ -1,3 +1,5 @@
 iplist.txt
-*.swp
-systems.txt
+ipsweep-case.sh
+ToDoList.md
+systems*
+*swp
