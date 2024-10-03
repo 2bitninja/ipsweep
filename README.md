@@ -20,13 +20,13 @@ To install Ipsweep, follow these steps:
    git clone https://github.com/2bitninja/ipsweep.git
    ```
 Navigate to the directory:
-
+```
 cd ipsweep
-
+```
 Make the script executable:
-
+```
 chmod +x ipsweep.sh
-
+```
 ## Usage
 To use the Ipsweep script, run the following command:
    ```bash
